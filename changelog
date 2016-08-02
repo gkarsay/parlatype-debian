@@ -1,3 +1,9 @@
+parlatype (1.1-1) jessie; urgency=medium
+
+  * New upstream release
+
+ -- Gabor Karsay <gabor.karsay@gmx.at>  Fri, 29 Jul 2016 15:09:32 +0200
+
 parlatype (1.0-1) jessie; urgency=low
 
   * Initial release
