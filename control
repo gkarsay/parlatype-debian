@@ -21,7 +21,7 @@ Description: Minimal audio player for manual speech transcription
  Plays audio sources to transcribe them in your favourite text application.
  Speed of playback can be changed without changing the pitch and on pause it
  will rewind for a few seconds according to your preferences. Parlatype can be
- controled with the "Play" button from your keyboard even if its window is not
+ controlled with the "Play" button from your keyboard even if its window is not
  focused.
 
 Package: parlatype-libreoffice-helpers
