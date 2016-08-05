@@ -27,7 +27,7 @@ Description: Minimal audio player for manual speech transcription
 Package: parlatype-libreoffice-helpers
 Architecture: all
 Depends: libreoffice-script-provider-python,
-	 parlatype,
+	 parlatype (= ${binary:Version}),
 	 ${misc:Depends}
 Description: Set of macros for LibreOffice
  Controls Parlatype from within LibreOffice. The most important ones are to
