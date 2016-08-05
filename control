@@ -3,11 +3,11 @@ Section: gnome
 Priority: optional
 Maintainer: Gabor Karsay <gabor.karsay@gmx.at>
 Build-Depends: debhelper (>= 9),
-	       dh-autoreconf,
+               dh-autoreconf,
                intltool (>= 0.50.2),
                libxml2-utils,
-	       libgtk-3-dev (>= 3.10.0),
-	       libgstreamer1.0-dev,
+               libgtk-3-dev (>= 3.10.0),
+               libgstreamer1.0-dev,
                yelp-tools
 Standards-Version: 3.9.6
 Homepage: https://github.com/gkarsay/parlatype
