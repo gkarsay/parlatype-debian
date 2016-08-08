@@ -10,6 +10,7 @@ usr/share/help/*/parlatype/keyboard-shortcuts.page
 usr/share/help/*/parlatype/preferences.page
 usr/share/help/*/parlatype/timestamps.page
 usr/share/help/*/parlatype/figures/parlatype-icon.png
+usr/share/help/*/parlatype/figures/parlatype-main-window.png
 usr/share/icons/hicolor/*/apps/parlatype.png
 usr/share/locale/de/LC_MESSAGES/parlatype.mo
 usr/share/man/man1/parlatype.1
