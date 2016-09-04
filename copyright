@@ -11,6 +11,12 @@ Copyright: 2008 Philip Withnall <philip@tecnocode.co.uk>
 	   2016 Gabor Karsay <gabor.karsay@gmx.at>
 License: GPL-3
 
+Files: src/pt-waveloader.c
+       src/pt-waveslider.c
+Copyright: 2006-2008 Buzztrax team <buzztrax-devel@buzztrax.org>
+	   2016 Gabor Karsay <gabor.karsay@gmx.at>
+License: GPL-3
+
 Files: data/icons/*/apps/parlatype.png
 Copyright: 2002-2016 GNOME Project, http://www.gnome.org
 	   2016 Gabor Karsay <gabor.karsay@gmx.at>
