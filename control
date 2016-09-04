@@ -8,6 +8,7 @@ Build-Depends: debhelper (>= 9),
                libxml2-utils,
                libgtk-3-dev (>= 3.10.0),
                libgstreamer1.0-dev,
+               libgstreamer-plugins-base1.0-dev,
                yelp-tools
 Standards-Version: 3.9.6
 Homepage: https://github.com/gkarsay/parlatype
