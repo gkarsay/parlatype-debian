@@ -1,0 +1,6 @@
+usr/include
+usr/lib/*/libparlatype.so
+usr/lib/*/pkgconfig
+usr/share/gir-1.0/Parlatype-1.0.gir
+usr/share/glade/catalogs/parlatype.xml
+usr/share/glade/pixmaps/hicolor/*/actions/widget-pt-waveslider.png

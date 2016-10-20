@@ -8,7 +8,7 @@ export DEB_BUILD_MAINT_OPTIONS = hardening=+all
 
 # see EXAMPLES in dpkg-buildflags(1) and read /usr/share/dpkg/*
 DPKG_EXPORT_BUILDFLAGS = 1
-include /usr/share/dpkg/default.mk
+include /usr/share/dpkg/buildflags.mk
 
 # see ENVIRONMENT in dpkg-buildflags(1)
 # package maintainers to append CFLAGS
@@ -16,10 +16,13 @@ include /usr/share/dpkg/default.mk
 # package maintainers to append LDFLAGS
 #export DEB_LDFLAGS_MAINT_APPEND = -Wl,--as-needed
 
+override_dh_auto_configure:
+	dh_auto_configure -- --enable-gtk-doc
+
 
 # main packaging script based on dh7 syntax
 %:
-	dh $@  --with autoreconf
+	dh $@ --with autoreconf,gir
 
 # debmake generated override targets
 # This is example for Cmake (See http://bugs.debian.org/641051 )

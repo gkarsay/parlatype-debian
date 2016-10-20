@@ -4,7 +4,12 @@ Priority: optional
 Maintainer: Gabor Karsay <gabor.karsay@gmx.at>
 Build-Depends: debhelper (>= 9),
                dh-autoreconf,
+               gobject-introspection,
+               gtk-doc-tools,
                intltool (>= 0.50.2),
+               libfile-fcntllock-perl,
+               libgirepository1.0-dev,
+               libgladeui-dev (>= 3.15),
                libxml2-utils,
                libgtk-3-dev (>= 3.10.0),
                libgstreamer1.0-dev,
@@ -25,11 +30,67 @@ Description: Minimal audio player for manual speech transcription
  controlled with the "Play" button from your keyboard even if its window is not
  focused.
 
+Package: libparlatype0
+Architecture: any
+Section: libs
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends},
+         ${shlibs:Depends}
+Multi-Arch: same
+Description: Library for Parlatype - runtime version
+ Provides the GStreamer backend for Parlatype, a wave loader and a wave viewer
+ widget. Mainly used by Parlatype but open for other programs as well.
+ .
+ This package contains runtime libraries needed by Parlatype.
+
+Package: libparlatype-dev
+Architecture: any
+Section: libdevel
+Depends: ${misc:Depends},
+         libparlatype0 (= ${binary:Version}),
+         gir1.2-parlatype (= ${binary:Version}),
+         libglib2.0-dev (>= 2.35.3),
+         libgtk-3-dev (>= 3.7.7)
+Suggests: libparlatype-doc
+Multi-Arch: same
+Description: Library for Parlatype - development version
+ Provides the GStreamer backend for Parlatype, a wave loader and a wave viewer
+ widget. Mainly used by Parlatype but open for other programs as well.
+ .
+ This package provides the necessary development libraries and include
+ files to develop and compile libparlatype.
+
+Package: libparlatype-doc
+Architecture: all
+Section: doc
+Depends: ${misc:Depends}
+Suggests: devhelp
+Multi-Arch: foreign
+Description: Documentation files for the Parlatype library
+ Provides the GStreamer backend for Parlatype, a wave loader and a wave viewer
+ widget. Mainly used by Parlatype but open for other programs as well.
+ .
+ This package contains the HTML documentation for the Parlatype library
+ in /usr/share/gtk-doc/html/parlatype/ .
+
+Package: gir1.2-parlatype
+Architecture: any
+Section: introspection
+Depends: ${misc:Depends},
+         ${gir:Depends}
+Multi-Arch: same
+Description: Library for Parlatype - gir bindings
+ Provides the GStreamer backend for Parlatype, a wave loader and a wave viewer
+ widget. Mainly used by Parlatype but open for other programs as well.
+ .
+ This package can be used by other packages using the GIRepository format to
+ generate dynamic bindings.
+
 Package: parlatype-libreoffice-helpers
 Architecture: all
-Depends: libreoffice-script-provider-python,
-	 parlatype (>= ${source:Version}),
-	 ${misc:Depends}
+Depends: ${misc:Depends},
+         libreoffice-script-provider-python,
+	 parlatype (>= ${source:Version})
 Description: Set of macros for LibreOffice
  Controls Parlatype from within LibreOffice. The most important ones are to
  insert time stamps into the document and to jump to that position in Parlatype.
