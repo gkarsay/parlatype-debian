@@ -1,6 +1,7 @@
 # Lib is compiled with debian's hardening flags -D_FORTIFY_SOURCE=2
-# `hardening-check -v libparlatype.so.0.0.0` is complaining about: unprotected: read
-# It seems like it's been validated at compile time.
-# read() is used only once in pt_waveloader.c, reading x/2 bytes into a buffer of size gint16[x]
+# `hardening-check -v libparlatype.so.0.0.0` is complaining about:
+# unprotected: read
+# It seems like it's been validated at compile time as read () is used only
+# once in pt_waveloader.c, reading x/2 bytes into a buffer of size gint16[x]
 libparlatype0: hardening-no-fortify-functions usr/lib/x86_64-linux-gnu/libparlatype.so.0.0.0
 
