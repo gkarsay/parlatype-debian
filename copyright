@@ -11,8 +11,8 @@ Copyright: 2008 Philip Withnall <philip@tecnocode.co.uk>
 	   2016 Gabor Karsay <gabor.karsay@gmx.at>
 License: GPL-3
 
-Files: libparlatype/pt-waveloader.c
-       libparlatype/pt-waveslider.c
+Files: libparlatype/src/pt-waveloader.c
+       libparlatype/src/pt-waveslider.c
 Copyright: 2006-2008 Buzztrax team <buzztrax-devel@buzztrax.org>
 	   2016 Gabor Karsay <gabor.karsay@gmx.at>
 License: GPL-3
@@ -22,7 +22,7 @@ Copyright: 2002-2016 GNOME Project, http://www.gnome.org
 	   2016 Gabor Karsay <gabor.karsay@gmx.at>
 License: CCBYSA-3
 
-Files: data/icons/*/actions/widget-pt-waveslider.png
+Files: libparlatype/data/icons/*/actions/widget-pt-waveslider.png
 Copyright: 2016 Gabor Karsay <gabor.karsay@gmx.at>
 License: CCBYSA-3
 
