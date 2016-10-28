@@ -6,10 +6,8 @@ libparlatype.so.0 libparlatype0 #MINVER#
  pt_player_get_duration@Base 1.4
  pt_player_get_duration_time_string@Base 1.4
  pt_player_get_filename@Base 1.4
- pt_player_get_length@Base 1.4
  pt_player_get_permille@Base 1.4
  pt_player_get_position@Base 1.4
- pt_player_get_px_per_sec@Base 1.4
  pt_player_get_time_string@Base 1.4
  pt_player_get_timestamp@Base 1.4
  pt_player_get_type@Base 1.4
@@ -30,11 +28,15 @@ libparlatype.so.0 libparlatype0 #MINVER#
  pt_player_set_volume@Base 1.4
  pt_player_string_is_timestamp@Base 1.4
  pt_player_wave_pos@Base 1.4
- pt_waveloader_get_channels@Base 1.4
+ pt_progress_dialog_get_type@Base 1.4
+ pt_progress_dialog_new@Base 1.4
+ pt_progress_dialog_set_progress@Base 1.4
+ pt_wavedata_copy@Base 1.4
+ pt_wavedata_free@Base 1.4
+ pt_wavedata_get_type@Base 1.4
+ pt_wavedata_new@Base 1.4
  pt_waveloader_get_data@Base 1.4
- pt_waveloader_get_data_size@Base 1.4
  pt_waveloader_get_duration@Base 1.4
- pt_waveloader_get_px_per_sec@Base 1.4
  pt_waveloader_get_type@Base 1.4
  pt_waveloader_load_async@Base 1.4
  pt_waveloader_load_finish@Base 1.4
