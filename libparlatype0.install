@@ -1,1 +1,2 @@
 usr/lib/*/libparlatype.so.*
+/usr/share/locale/*/LC_MESSAGES/libparlatype.mo
