@@ -1,3 +1,10 @@
+parlatype (1.4.1-1) jessie; urgency=medium
+
+  * New upstream bugfix release
+  * Fix packaging help
+
+ -- Gabor Karsay <gabor.karsay@gmx.at>  Mon, 31 Oct 2016 17:49:20 +0100
+
 parlatype (1.4-1) jessie; urgency=medium
 
   * New upstream release
