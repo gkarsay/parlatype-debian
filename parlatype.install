@@ -8,9 +8,11 @@ usr/share/help/*/parlatype/index.page
 usr/share/help/*/parlatype/keyboard-shortcuts.page
 usr/share/help/*/parlatype/legal.xml
 usr/share/help/*/parlatype/preferences.page
+usr/share/help/*/parlatype/selections.page
 usr/share/help/*/parlatype/timestamps.page
 usr/share/help/*/parlatype/figures/parlatype-icon.png
 usr/share/help/*/parlatype/figures/parlatype-prefs-controls.png
+usr/share/help/*/parlatype/figures/parlatype-prefs-waveform.png
 usr/share/help/*/parlatype/figures/parlatype-prefs-window.png
 usr/share/help/*/parlatype/figures/parlatype-main-window.png
 usr/share/icons/hicolor/*/apps/parlatype.png
