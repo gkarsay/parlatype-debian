@@ -1,5 +1,6 @@
 libparlatype.so.0 libparlatype0 #MINVER#
  pt_player_cancel@Base 1.4
+ pt_player_clear_selection@Base 1.5
  pt_player_fast_forward@Base 1.4
  pt_player_get_current_time_string@Base 1.4
  pt_player_get_data@Base 1.4
@@ -24,6 +25,7 @@ libparlatype.so.0 libparlatype0 #MINVER#
  pt_player_pause@Base 1.4
  pt_player_play@Base 1.4
  pt_player_rewind@Base 1.4
+ pt_player_set_selection@Base 1.5
  pt_player_set_speed@Base 1.4
  pt_player_set_volume@Base 1.4
  pt_player_string_is_timestamp@Base 1.4
