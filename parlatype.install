@@ -1,12 +1,12 @@
 usr/bin/parlatype
 usr/share/applications/parlatype.desktop
 usr/share/glib-2.0/schemas/org.gnome.parlatype.gschema.xml
-usr/share/help/*/parlatype/control.page
 usr/share/help/*/parlatype/drag-and-drop.page
 usr/share/help/*/parlatype/first-steps.page
 usr/share/help/*/parlatype/index.page
 usr/share/help/*/parlatype/keyboard-shortcuts.page
 usr/share/help/*/parlatype/legal.xml
+usr/share/help/*/parlatype/media-keys.page
 usr/share/help/*/parlatype/preferences.page
 usr/share/help/*/parlatype/selections.page
 usr/share/help/*/parlatype/timestamps.page
