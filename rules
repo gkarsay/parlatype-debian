@@ -10,7 +10,7 @@ override_dh_autoreconf:
 	dh_autoreconf --as-needed
 
 override_dh_auto_configure:
-	dh_auto_configure -- --enable-gtk-doc
+	dh_auto_configure -- --enable-gtk-doc --enable-glade-catalog
 
 %:
 	dh $@ --with autoreconf,gir
