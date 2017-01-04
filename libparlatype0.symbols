@@ -43,8 +43,8 @@ libparlatype.so.0 libparlatype0 #MINVER#
  pt_waveloader_load_async@Base 1.4
  pt_waveloader_load_finish@Base 1.4
  pt_waveloader_new@Base 1.4
- pt_waveslider_get_follow_cursor@Base 1.4
- pt_waveslider_get_type@Base 1.4
- pt_waveslider_new@Base 1.4
- pt_waveslider_set_follow_cursor@Base 1.4
- pt_waveslider_set_wave@Base 1.4
+ pt_waveviewer_get_follow_cursor@Base 1.5
+ pt_waveviewer_get_type@Base 1.5
+ pt_waveviewer_new@Base 1.5
+ pt_waveviewer_set_follow_cursor@Base 1.5
+ pt_waveviewer_set_wave@Base 1.5
