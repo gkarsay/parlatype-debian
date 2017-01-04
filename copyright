@@ -18,6 +18,7 @@ Copyright: 2006-2008 Buzztrax team <buzztrax-devel@buzztrax.org>
 License: GPL-3
 
 Files: data/icons/*/apps/parlatype.png
+       src/resources/icons/cursor.png
 Copyright: 2002-2016 GNOME Project, http://www.gnome.org
 	   2016 Gabor Karsay <gabor.karsay@gmx.at>
 License: CCBYSA-3
