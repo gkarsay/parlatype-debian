@@ -1,5 +1,6 @@
 usr/bin/parlatype
-usr/share/applications/parlatype.desktop
+usr/share/appdata/org.gnome.parlatype.appdata.xml
+usr/share/applications/org.gnome.parlatype.desktop
 usr/share/glib-2.0/schemas/org.gnome.parlatype.gschema.xml
 usr/share/help/*/parlatype/drag-and-drop.page
 usr/share/help/*/parlatype/first-steps.page
