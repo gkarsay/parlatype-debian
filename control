@@ -30,7 +30,7 @@ Description: Minimal audio player for manual speech transcription
  controlled with the "Play" button from your keyboard even if its window is not
  focused.
 
-Package: libparlatype0
+Package: libparlatype1
 Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
@@ -47,7 +47,7 @@ Package: libparlatype-dev
 Architecture: any
 Section: libdevel
 Depends: ${misc:Depends},
-         libparlatype0 (= ${binary:Version}),
+         libparlatype1 (= ${binary:Version}),
          gir1.2-parlatype (= ${binary:Version}),
          libglib2.0-dev (>= 2.35.3),
          libgtk-3-dev (>= 3.7.7)
