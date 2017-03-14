@@ -1,3 +1,9 @@
+parlatype (1.5-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Gabor Karsay <gabor.karsay@gmx.at>  Wed, 15 Mar 2017 00:40:28 +0100
+
 parlatype (1.4.1-1) jessie; urgency=medium
 
   * New upstream bugfix release
