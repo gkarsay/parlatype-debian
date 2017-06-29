@@ -1,7 +1,7 @@
 usr/bin/parlatype
-usr/share/appdata/org.gnome.parlatype.appdata.xml
-usr/share/applications/org.gnome.parlatype.desktop
-usr/share/glib-2.0/schemas/org.gnome.parlatype.gschema.xml
+usr/share/appdata/com.github.gkarsay.parlatype.appdata.xml
+usr/share/applications/com.github.gkarsay.parlatype.desktop
+usr/share/glib-2.0/schemas/com.github.gkarsay.parlatype.gschema.xml
 usr/share/help/*/parlatype/drag-and-drop.page
 usr/share/help/*/parlatype/first-steps.page
 usr/share/help/*/parlatype/index.page
