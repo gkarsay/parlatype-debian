@@ -1,4 +1,4 @@
-usr/lib/libreoffice/share/Scripts/python/Parlatype.py
+usr/lib/*/libreoffice/share/Scripts/python/Parlatype.py usr/lib/libreoffice/share/Scripts/python
 usr/share/help/*/parlatype/libreoffice-helpers.page
 usr/share/help/*/parlatype/figures/lo-customize.png
 usr/share/help/*/parlatype/figures/lo-menu.png
