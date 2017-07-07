@@ -48,7 +48,7 @@ Architecture: any
 Section: libdevel
 Depends: ${misc:Depends},
          libparlatype1 (= ${binary:Version}),
-         gir1.2-parlatype (= ${binary:Version}),
+         gir1.2-parlatype-1.0 (= ${binary:Version}),
          libglib2.0-dev (>= 2.35.3),
          libgtk-3-dev (>= 3.7.7)
 Suggests: libparlatype-doc
@@ -73,7 +73,7 @@ Description: Documentation files for the Parlatype library
  This package contains the HTML documentation for the Parlatype library
  in /usr/share/gtk-doc/html/parlatype/ .
 
-Package: gir1.2-parlatype
+Package: gir1.2-parlatype-1.0
 Architecture: any
 Section: introspection
 Depends: ${misc:Depends},
