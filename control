@@ -15,7 +15,7 @@ Build-Depends: debhelper (>= 9),
                libgstreamer1.0-dev,
                libgstreamer-plugins-base1.0-dev,
                yelp-tools
-Standards-Version: 3.9.6
+Standards-Version: 4.0.0
 Homepage: http://gkarsay.github.io/parlatype/
 
 Package: parlatype
@@ -51,7 +51,7 @@ Depends: ${misc:Depends},
          gir1.2-parlatype-1.0 (= ${binary:Version}),
          libglib2.0-dev (>= 2.35.3),
          libgtk-3-dev (>= 3.7.7)
-Suggests: libparlatype-doc
+Recommends: libparlatype-doc
 Multi-Arch: same
 Description: Library for Parlatype - development version
  Provides the GStreamer backend for Parlatype, a wave loader and a wave viewer
