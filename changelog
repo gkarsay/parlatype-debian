@@ -1,3 +1,11 @@
+parlatype (1.5.1-1) unstable; urgency=medium
+
+  * New upstream bugfix release
+  * Bump standards version to 4.0.0
+  * Rename gir package to match typelib name
+
+ -- Gabor Karsay <gabor.karsay@gmx.at>  Sat, 08 Jul 2017 14:20:30 +0200
+
 parlatype (1.5-1) unstable; urgency=medium
 
   * New upstream release
