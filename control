@@ -17,6 +17,8 @@ Build-Depends: debhelper (>= 9),
                yelp-tools
 Standards-Version: 4.0.0
 Homepage: http://gkarsay.github.io/parlatype/
+Vcs-Git: https://github.com/gkarsay/parlatype-debian.git
+Vcs-Browser: https://github.com/gkarsay/parlatype-debian
 
 Package: parlatype
 Architecture: any
