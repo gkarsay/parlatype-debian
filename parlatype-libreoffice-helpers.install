@@ -1,5 +1,5 @@
 usr/lib/*/libreoffice/share/Scripts/python/Parlatype.py usr/lib/libreoffice/share/Scripts/python
 usr/share/appdata/com.github.gkarsay.parlatype.libreoffice-helpers.metainfo.xml
-usr/share/help/*/parlatype/libreoffice-helpers.page
-usr/share/help/*/parlatype/figures/lo-customize.png
-usr/share/help/*/parlatype/figures/lo-menu.png
+usr/share/help/*/com.github.gkarsay.parlatype/libreoffice-helpers.page
+usr/share/help/*/com.github.gkarsay.parlatype/figures/lo-customize.png
+usr/share/help/*/com.github.gkarsay.parlatype/figures/lo-menu.png
