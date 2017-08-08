@@ -16,8 +16,8 @@ usr/share/help/*/parlatype/figures/parlatype-prefs-controls.png
 usr/share/help/*/parlatype/figures/parlatype-prefs-waveform.png
 usr/share/help/*/parlatype/figures/parlatype-prefs-window.png
 usr/share/help/*/parlatype/figures/parlatype-main-window.png
-usr/share/icons/hicolor/*/apps/parlatype.png
-usr/share/icons/hicolor/scalable/apps/parlatype-symbolic.svg
+usr/share/icons/hicolor/*/apps/com.github.gkarsay.parlatype.png
+usr/share/icons/hicolor/scalable/apps/com.github.gkarsay.parlatype-symbolic.svg
 usr/share/locale/*/LC_MESSAGES/parlatype.mo
 usr/share/man/man1/parlatype.1
 
