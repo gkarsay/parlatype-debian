@@ -1,5 +1,4 @@
 usr/bin/parlatype
-usr/share/appdata/com.github.gkarsay.parlatype.appdata.xml
 usr/share/applications/com.github.gkarsay.parlatype.desktop
 usr/share/dbus-1/services/com.github.gkarsay.parlatype.service
 usr/share/glib-2.0/schemas/com.github.gkarsay.parlatype.gschema.xml
@@ -21,4 +20,4 @@ usr/share/icons/hicolor/*/apps/com.github.gkarsay.parlatype.png
 usr/share/icons/hicolor/scalable/apps/com.github.gkarsay.parlatype-symbolic.svg
 usr/share/locale/*/LC_MESSAGES/parlatype.mo
 usr/share/man/man1/parlatype.1
-
+usr/share/metainfo/com.github.gkarsay.parlatype.appdata.xml
