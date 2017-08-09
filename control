@@ -14,7 +14,7 @@ Build-Depends: debhelper (>= 10),
                libgstreamer1.0-dev,
                libgstreamer-plugins-base1.0-dev,
                yelp-tools
-Standards-Version: 4.0.0
+Standards-Version: 4.0.1
 Homepage: http://gkarsay.github.io/parlatype/
 Vcs-Git: https://github.com/gkarsay/parlatype-debian.git
 Vcs-Browser: https://github.com/gkarsay/parlatype-debian
