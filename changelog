@@ -1,6 +1,25 @@
+parlatype (1.5.2-1) unstable; urgency=medium
+
+  * Initial release (Closes: #868886)
+  * New upstream bugfix release
+  * Bump standards version to 4.0.1 (no changes)
+  * Switch compat level 9 to 10
+  * Bump debhelper to 10 in Build-Depends
+  * Remove dh-autoreconf from Build-Depends
+  * Remove --with autoreconf in rules
+  * Update install path for help files
+  * Update install path for AppStream data
+  * Update icon names (install and copyright)
+  * Install DBus service
+  * Install symbolic icon
+  * Override lintian's hardening-no-fortify-functions: false positive
+  * Add Build-Depends appstream-util and desktop-file-utils for checks
+  * Copyright: change URL format to https
+
+ -- Gabor Karsay <gabor.karsay@gmx.at>  Thu, 10 Aug 2017 17:43:18 +0200
+
 parlatype (1.5.1-1) unstable; urgency=medium
 
-  * Initial public Debian release (Closes: #868886)
   * New upstream bugfix release
   * Bump standards version to 4.0.0
   * Rename gir package to match typelib name
@@ -47,7 +66,7 @@ parlatype (1.1-1) jessie; urgency=low
 
 parlatype (1.0-1) jessie; urgency=low
 
-  * Initial release
+  * Initial upstream release
 
  -- Gabor Karsay <gabor.karsay@gmx.at>  Tue, 19 Jan 2016 09:38:23 +0100
  
