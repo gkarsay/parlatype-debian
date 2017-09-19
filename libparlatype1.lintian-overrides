@@ -1,3 +1,3 @@
 # False positive: `blhc` confirms that hardening flags are set
 # `hardening-check` finds unprotected memcpy() and read()
-libparlatype1: hardening-no-fortify-functions usr/lib/*/libparlatype.so.1.0.1
+libparlatype1: hardening-no-fortify-functions usr/lib/*/libparlatype.so.*
