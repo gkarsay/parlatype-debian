@@ -31,6 +31,10 @@ Files: help/*
 Copyright: 2016 Gabor Karsay <gabor.karsay@gmx.at>
 License: CC-BY-SA-4
 
+Files: *.po
+Copyright: 2017 Rosetta Contributors and Canonical Ltd 2017
+License: GPL-3+
+
 License: GPL-3+
  This program is free software: you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
