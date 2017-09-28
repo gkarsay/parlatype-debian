@@ -73,7 +73,7 @@ Description: Documentation files for the Parlatype library
  widget. Mainly used by Parlatype but open for other programs as well.
  .
  This package contains the HTML documentation for the Parlatype library
- in /usr/share/gtk-doc/html/parlatype/ .
+ in /usr/share/doc/libparlatype-doc/html/ .
 
 Package: gir1.2-parlatype-1.0
 Architecture: any

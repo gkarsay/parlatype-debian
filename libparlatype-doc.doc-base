@@ -1,0 +1,10 @@
+Document: libparlatype
+Title: Parlatype Library Reference Manual
+Author: Gabor Karsay
+Abstract: The Parlatype library provides a GStreamer based backend for 
+ playing audio files, a wave loader and a (GTK+ based) wave viewer widget.
+Section: Programming/C
+
+Format: HTML
+Index: /usr/share/doc/libparlatype-doc/html/index.html
+Files: /usr/share/doc/libparlatype-doc/html/*.html
