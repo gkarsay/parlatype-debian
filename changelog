@@ -1,3 +1,15 @@
+parlatype (1.5.4-1) unstable; urgency=medium
+
+  * New upstream release
+  * Apply upstream patch to fix build on hurd-i386 and kfreebsd-*
+    (Closes: #882517)
+  * Build docs archictecture independent (Closes: #882520)
+  * Disable new upstream tests (they fail in build environment)
+  * Add copyright for test data
+  * Bump standards version to 4.1.1 (no changes needed)
+
+ -- Gabor Karsay <gabor.karsay@gmx.at>  Sun, 26 Nov 2017 10:53:44 +0100
+
 parlatype (1.5.2-1) unstable; urgency=medium
 
   * Initial release (Closes: #868886)
