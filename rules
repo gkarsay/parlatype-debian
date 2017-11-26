@@ -6,8 +6,15 @@ export DEB_BUILD_MAINT_OPTIONS = hardening=+all
 override_dh_autoreconf:
 	dh_autoreconf --as-needed
 
-override_dh_auto_configure:
-	dh_auto_configure -- --enable-gtk-doc --enable-glade-catalog
+# generate docs only architecture independent
+override_dh_auto_configure-indep:
+	dh_auto_configure -- --enable-gtk-doc \
+	                     --enable-glade-catalog \
+	                     --disable-tests
+
+override_dh_auto_configure-arch:
+	dh_auto_configure -- --enable-glade-catalog \
+	                     --disable-tests
 
 %:
 	dh $@ --with gir
